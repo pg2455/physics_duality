@@ -1,0 +1,50 @@
+# ---------------------
+# -----   CORE   ------
+# ---------------------
+# Lattice and Model Parameters
+N: 8
+N_COMPONENTS: 2
+beta_target: 0.2
+K_target: 0.1              # Only required when N_COMPONENTS = 2
+
+# Model Parameters
+beta_model: 0.1
+K_model: 0.1              # Only required when N_COMPONENTS = 2
+
+# Learning Parameters
+alpha: 0.1
+CD_steps: 1000
+num_samples: 100
+sample_multiplier: 10
+
+# Basic Setup
+seed: 42
+output_dir: "./output"
+
+# ---------------------
+# -----  MAPPING  -----
+# ---------------------
+map_type: "softattn"
+learn_map_function: true
+map_index: "soft"
+discretize_attn: false
+random_init: false
+all_lr: 0.01
+attention_temperature: 0.5
+attn_init_std: 0.1
+
+# ---------------------
+# -- OPTIMIZATION -----
+# ---------------------
+beta_optimize_type: "manual"  # Options: "in-built", "manual"
+beta_learning_mask: "1,0"
+epsilon_hessian: 1.0e-6
+early_stopping_steps: 200
+clip_gradients: false
+
+# ---------------------
+# ----  OPTIONAL  -----
+# ---------------------
+original_frame_penalty: 0.1
+bias_attn: false
+link_feature_order: 1
