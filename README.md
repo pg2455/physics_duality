@@ -1,6 +1,6 @@
 # A Machine Learning Approach to Duality in Statistical Physics (ICML 2025)
 
-This repository accompanies the paper published at ICML 2025, titled "A Machine Learning Approach to Duality in Statistical Physics."
+This repository accompanies the paper published at ICML 2025, titled [A Machine Learning Approach to Duality in Statistical Physics](https://openreview.net/forum?id=bWeLpOgqGp).
 
 
 ## 2. Requirements & Installation
