@@ -104,7 +104,7 @@ If you use this code or ideas from our paper, please cite:
   author={Gupta, Prateek and Ferrari, Andrea E.V. and Iqbal, Nabil},
   booktitle={Proceedings of the 42nd International Conference on Machine Learning (ICML)},
   year={2025},
-  url={}
+  url={https://openreview.net/forum?id=bWeLpOgqGp}
 }
 ```
 
